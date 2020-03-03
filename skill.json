@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Aprenda fatos divertidos sobre os pokémons.",
+          "examplePhrases": [
+            "Alexa abrir pokefacts",
+            "Alexa me conta de um pokémon",
+            "Alexa me conta um fato sobre pokémon"
+          ],
+          "keywords": [
+            "pokémon",
+            "fatos",
+            "trivia"
+          ],
+          "name": "pokefacts",
+          "description": "Pergunte por Pokefacts e aprenda mais sobre o universo Pokémon.\nA qualquer momento, você pode dizer \"Alexa, pare\""
+        }
+      },
+      "category": "KNOWLEDGE_AND_TRIVIA"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-pokefacts-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
